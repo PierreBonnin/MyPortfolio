@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Italic } from 'styled-icons/boxicons-regular';
 
 const Container = styled.div`
 	font-size: 16px;
@@ -15,16 +16,13 @@ const Text = styled.p`
 	text-align: center;
 `;
 
+
+
 const Footer = () => {
 	return (
 		<Container>
 			<Text>
-				'My projects are powered by a lot of
-				<span role='img' aria-label='coffe'>
-					{'  '}
-					☕️
-				</span>
-				'
+				Design and repo credit to CrazyChickenDev>, check him out! --> <a>https://github.com/CrazyChickenDev</a>
 			</Text>
 		</Container>
 	);

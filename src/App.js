@@ -25,6 +25,7 @@ function App() {
 	const skillsRef = useRef(null);
 	const projectRef = useRef(null);
 	const aboutRef = useRef(null);
+	const helloRef = useRef(null);
 
 	useEffect(() => {
 		try {
@@ -74,6 +75,8 @@ function App() {
 		if (id === 'skills') return scrollToRef(skillsRef);
 		if (id === 'project') return scrollToRef(projectRef);
 		if (id === 'about') return scrollToRef(aboutRef);
+		if (id === 'hello') return scrollToRef(helloRef);
+		
 		return scrollToRef(heroRef);
 	};
 
@@ -104,6 +107,7 @@ function App() {
 					skillsRef={skillsRef}
 					projectRef={projectRef}
 					aboutRef={aboutRef}
+					helloRef={helloRef}
 					handleToast={handleToast}
 					didScroll={didScroll}
 				/>

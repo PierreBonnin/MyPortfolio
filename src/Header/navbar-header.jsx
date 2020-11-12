@@ -101,6 +101,10 @@ const NavbarHeader = ({ isSafari, handleScroll, scrollProgress }) => {
 				<HeaderTextContainer id='about' onClick={handleScroll}>
 					<HeaderText>About</HeaderText>
 				</HeaderTextContainer>
+				<HeaderLine />
+				<HeaderTextContainer id='hello' onClick={handleScroll}>
+					<HeaderText>Hello</HeaderText>
+				</HeaderTextContainer>
 			</Header>
 		</HeaderContainer>
 	);
