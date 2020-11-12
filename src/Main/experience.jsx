@@ -40,7 +40,7 @@ const Title = styled(motion.div)`
 const TitleText = styled.h1`
 	font-size: 28px;
 	padding-right: 0.7em;
-	color: #ffc200;
+	color: #64ffda;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 22px;

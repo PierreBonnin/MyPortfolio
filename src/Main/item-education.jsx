@@ -49,7 +49,7 @@ const IconList = styled(motion.div)`
 	position: absolute;
 	svg {
 		width: 15px;
-		color: #ffc200;
+		color: #64ffda;
 		padding-right: 0.5em;
 	}
 `;

@@ -116,7 +116,7 @@ const Title = styled.h4`
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
-	color: #ffc200;
+	color: #64ffda;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 20px;
@@ -157,7 +157,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: #ffc200;
+	color: #64ffda;
 `;
 
 const ButtonContainer = styled.div`
@@ -188,16 +188,14 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={Passwordlist} alt='passlist.png' />
+						
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>Passwordlist-Generator</Title>
+						<Title>Some Project</Title>
 						<Description>
-						A simple python program that takes in a collection of data given to it, then generates possible password 
-						combinations that can be gotten from those details that were fed into it. This program was created for 
-						educational purposes and as a security research tool.
+						
 						</Description>
 						<Technology>
 							<TechItems>
@@ -219,16 +217,7 @@ const AdvancedProjects = ({ isMobile }) => {
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-						    <a href='https://github.com/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<Github />
-								</Button>
-							</a>
-							<a href='https://github.io/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
+						  
 						</ButtonContainer>
 					</Card>
 				</RightRow>
@@ -236,9 +225,8 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row revert={true}>
 				<LeftRow text={true}>
 					<Card>
-						<Title>Keylogger</Title>
-						<Description>A simply built keylogger created using python on a linux distro(Parrot OS) and 
-							         used to record keystrokes made by users of the pc.
+						<Title>Some Other Project</Title>
+						<Description>Description
 						</Description>
 						<Technology>
 							<TechItems>
@@ -260,146 +248,44 @@ const AdvancedProjects = ({ isMobile }) => {
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
+							
 						</ButtonContainer>
 					</Card>
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={Keylogger} alt='Keylogger' />
+						
 					</ImgContainer>
 				</RightRow>
 			</Row>
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={SafeFolderApp} alt='SafeFolderApp' />
+						
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
-					<Card>
-						<Title>SafeFolder-App</Title>
-						<Description>
-						Description
-						</Description>
-						<Technology>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Framework
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>OS
-							</TechItems>
-						</Technology>
-						<ButtonContainer>
-							<a
-								href='https://github.com/CrazyChickenDev'
-								target='_blank'
-								rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<Github />
-								</Button>
-							</a>
-							<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
-						</ButtonContainer>
-					</Card>
+					
 				</RightRow>
 			</Row>
 			<Row revert={true}>
 				<LeftRow text={true}>
-					<Card>
-						<Title>Graphical-Password Strategy</Title>
-						<Description>
-						Description
-						</Description>
-						<Technology>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Frameworks
-							</TechItems>
-						</Technology>
-						<Technology>
-							<TechItems>
-								<Hastag>#</Hastag>Library
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag> OS
-							</TechItems>
-						</Technology>
-						<ButtonContainer>
-						<a href='https://github.com/CrazyChickenDev'
-								target='_blank'
-								rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<Github />
-								</Button>
-						</a>
-						<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-						</a>
-						</ButtonContainer>
-					</Card>
+					
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={GraphicalPasswordStrategy} alt='GraphicalPasswordStrategy' />
+						
 					</ImgContainer>
 				</RightRow>
 			</Row>
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
-						{!isMobile && (
-							<VideoContainer>
-								<video muted controls autoPlay loop>
-									<source src={BFPasswordCrackerVideo} type='video/mp4' />
-								</video>
-							</VideoContainer>
-						)}
+						
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
-					<Card>
-						<Title>BF Password Cracker</Title>
-						<Description>
-						Description
-						</Description>
-						<Technology>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Framework
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>OS
-							</TechItems>
-						</Technology>
-					</Card>
+					
 				</RightRow>
 			</Row>
 		</Container>

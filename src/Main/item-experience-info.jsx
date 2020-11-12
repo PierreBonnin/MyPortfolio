@@ -5,7 +5,7 @@ import { dataExperience } from './data';
 
 const ExperienceInfo = styled(motion.div)`
 	width: 50%;
-	border: 2px solid #ffc200;
+	border: 2px solid #64ffda;
 	background: #191919;
 	border-radius: 8px;
 	padding: 1em;
@@ -25,7 +25,7 @@ const Title = styled(motion.div)`
 		text-decoration: none;
 		cursor: pointer;
 		&:hover {
-			color: #ffc200;
+			color: #64ffda;
 		}
 	}
 	@media only screen and (max-width: 450px) {

@@ -108,7 +108,7 @@ const Title = styled.h4`
 	font-size: 22px;
 	margin: 0;
 	padding: 0;
-	color: #ffc200;
+	color: #64ffda;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 	font-size: 20px;
@@ -148,7 +148,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: #ffc200;
+	color: #64ffda;
 `;
 
 const ButtonContainer = styled.div`
@@ -171,12 +171,12 @@ const Link = ({ githubLink, externalLink }) => {
 	return (
 		<LinkContainer>
 			<a href={githubLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+				<Button whileHover={{ y: [0, -8, 0], color: '#64ffda' }} transition={{ duration: 0.5 }}>
 					<Github />
 				</Button>
 			</a>
 			<a href={externalLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+				<Button whileHover={{ y: [0, -8, 0], color: '#64ffda' }} transition={{ duration: 0.5 }}>
 					<ExternalLinkOutline />
 				</Button>
 			</a>
@@ -193,16 +193,13 @@ const BeginnerProjects = () => {
 		<Container initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
 			<CardRow>
 				<Card>
-					<Link
-						githubLink='https://github.com/CrazyChickenDev/MyPortfolio'
-						externalLink='https://nwaobidaniel.me/'
-					/>
+					
 					<ImgContainer>
-						<Img src={Portfolio} alt='portfolio' />
+						
 					</ImgContainer>
 					<TextContainer>
 						<Title>Portfolio</Title>
-						<Explanation>My Portfolio website created using ReactJs and deployed on Netlify</Explanation>
+						<Explanation>My Portfolio website </Explanation>
 						<Technology>
 							<TechItems>
 								<Hastag>#</Hastag>ReactJs
@@ -225,15 +222,12 @@ const BeginnerProjects = () => {
 					</TextContainer>
 				</Card>
 				<Card>
-					<Link
-						githubLink='https://github.com/CrazyChickenDev/'
-						externalLink='https://nwaobidaniel.me/'
-					/>
+					
 					<ImgContainer>
-						<Img src={MP3Player} alt='MP3Player' />
+						
 					</ImgContainer>
 					<TextContainer>
-						<Title>MP3 Player</Title>
+						<Title>Yo I'm a project</Title>
 						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
@@ -263,11 +257,10 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev/'
-						externalLink='https://github.com/CrazyChickenDev/'
+				
 					/>
 					<ImgContainer>
-						<Img src={ToDoApp} alt='todo-app' />
+				
 					</ImgContainer>
 					<TextContainer>
 						<Title>To-Do App</Title>
@@ -284,11 +277,10 @@ const BeginnerProjects = () => {
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev/'
-						externalLink='https://github.com/CrazyChickenDev/'
+						
 					/>
 					<ImgContainer>
-						<Img src={Weather} alt='weather' />
+						
 					</ImgContainer>
 					<TextContainer>
 						<Title>Weather</Title>
@@ -313,11 +305,10 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev/'
-						externalLink='https://github.com/CrazyChickenDev/'
+						
 					/>
 					<ImgContainer>
-						<Img src={TwitterBot} alt='twitterbot' />
+						
 					</ImgContainer>
 					<TextContainer>
 						<Title>Twitter Bot</Title>
@@ -340,11 +331,10 @@ const BeginnerProjects = () => {
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev/'
-						externalLink='https://github.com/CrazyChickenDev/'
+						
 					/>
 					<ImgContainer>
-						<Img src={RedditBot} alt='redditbot' />
+						
 					</ImgContainer>
 					<TextContainer>
 						<Title>Reddit Bot</Title>
@@ -367,145 +357,7 @@ const BeginnerProjects = () => {
 					</ButtonShow>
 				</ButtonContainer>
 			)}
-			{showMore && (
-				<>
-					<CardRow>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={Blockchain} alt='blockchain' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>Blockchain</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>OS
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={GitHubApp} alt='gitHubapp' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>GitHub App</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>Framework
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-					</CardRow>
-					<CardRow>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={CrazyKernel} alt='crazy-kernel' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>Crazy Kernel</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>OS
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={ToDo} alt='to-do' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>To-Do List</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>HTML
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>Javascript
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>CSS
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-					</CardRow>
-					<CardRow>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={CrazyOs} alt='crazy-os' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>Crazy OS</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>Framework
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-						<Card>
-							<Link
-								githubLink='https://github.com/CrazyChickenDev/'
-								externalLink='https://github.com/CrazyChickenDev/'
-							/>
-							<ImgContainer>
-								<Img src={Docker} alt='docker' />
-							</ImgContainer>
-							<TextContainer>
-								<Title>RGB Game</Title>
-								<Explanation>Description</Explanation>
-								<Technology>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-									<TechItems>
-										<Hastag>#</Hastag>Language
-									</TechItems>
-								</Technology>
-							</TextContainer>
-						</Card>
-					</CardRow>
-				</>
-			)}
+			
 		</Container>
 	);
 };
