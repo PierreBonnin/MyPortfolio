@@ -42,7 +42,7 @@ const TitleText = styled.h1`
 	font-size: 28px;
 	padding-right: 0.7em;
 	padding-left: 1em;
-	color: #ffc200;
+	color: #64ffda;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 22px;
@@ -105,7 +105,7 @@ const BackgroundButton = styled(motion.div)`
 	width: 120%;
 	height: 170%;
 	border-radius: 5px;
-	background: #ffc200;
+	background: #64ffda;
 	position: absolute;
 	z-index: -1;
 	left: -11px;

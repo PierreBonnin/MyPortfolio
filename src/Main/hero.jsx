@@ -65,11 +65,11 @@ const Title = styled(motion.h1)`
 	margin-top: 0em;
 	font-size: 75px;
 	text-align: start;
-	color: #ffc200;
+	color: #64ffda;
 	font-family: 'Titillium Web';
 	cursor: grab;
 	span {
-		color: #ffc200;
+		color: #64ffda;
 	}
 	@media only screen and (max-width: 800px) {
 		font-size: 60px;
@@ -153,7 +153,7 @@ const ScrollDown = styled.div`
 	align-items: center;
 	width: 100px;
 	color: white;
-	color: #ffc200;
+	color: #64ffda;
 	font-size: 15px;
 	font-family: 'Asap', sans-serif;
 	svg {
@@ -212,13 +212,13 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 						initial={{ y: -300, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						Nwaobi <span> Daniel</span>
+						Pierre <span> Bonnin</span>
 					</Title>
 					<SubTitle
 						initial={{ x: -300, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						I'm a <span>Cyber-Security Engineer</span> building and researching cool stuff.
+						I'm a <span>Data Science student</span> <br></br>with an overflowing interest for pretty much everything.
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
