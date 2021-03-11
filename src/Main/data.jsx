@@ -65,7 +65,7 @@ export const dataEducation = {
     },
     2: {
         main: 'Lycée Français Charles de Gaulle',
-        expand: 'French Baccalauréat (with Honors)',
+        expand: 'French Baccalauréat (with Honours)',
         date: '2016',
         country: 'London, United Kingdom',
     },

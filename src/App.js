@@ -10,13 +10,13 @@ import Notification from './Notification/notification';
 import Footer from './Footer/footer';
 
 const AppContainer = styled.div`
-	background: #1e1e1e;
-	font-family: 'Nunito', sans-serif;
+	background: #1e1e2e;
+	font-family: system-ui, sans-serif;
 `;
 
 function App() {
-	const [scrollProgress, setScrollProgress] = useState('20%');
-	const [didScroll, setDidScroll] = useState(false);
+	const [scrollProgress, setScrollProgress] = useState('10%');
+	const [didScroll, setDidScroll] = useState(true);
 	const [toast, setToast] = useState([]);
 	const [isSafari, setIsSafari] = useState(false);
 

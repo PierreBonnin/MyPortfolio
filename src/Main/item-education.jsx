@@ -7,7 +7,7 @@ import { dataEducation } from './data';
 
 const SubItemContainer = styled(motion.div)`
 	padding-left: 10px;
-	height: 50px;
+	height: 75px;
 	padding-bottom: 5px;
 `;
 
@@ -15,14 +15,14 @@ const ExpandContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	height: 20px;
+	height: 40px;
 `;
 
 const DetailsContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	height: 20px;
+	height: 40px;
 	padding: 5px 0px;
 `;
 
@@ -61,7 +61,7 @@ const SubEducationItems = ({ item }) => {
 			animate='open'
 			exit='collapsed'
 			variants={{
-				open: { opacity: 1, height: '50px' },
+				open: { opacity: 1, height: '75px' },
 				collapsed: { opacity: 0, height: '0px' },
 			}}
 			transition={{ duration: 0.3, ease: 'circIn' }}>
