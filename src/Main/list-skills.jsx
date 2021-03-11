@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 const Container = styled(motion.div)`
-	width: 65%;
+	width: 45%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: baseline;
@@ -62,34 +62,34 @@ const Education = () => {
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#64ffda'}>
-						#JavaScript(ES6)
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
 						#Python
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
+						#Machine Learning
+					</ColumnText>
+				</TextContainer>
+				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#64ffda'}>
-						#Pentesting
+						#Data Analytics
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#NodeJs
+						#Predictive Analytics
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#C++
+						#Javascript
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#64ffda'}>
-						#CSS
+						#NodeJs
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
@@ -99,7 +99,7 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#64ffda'}>
-						#GatsbyJs
+						#Java
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
@@ -111,17 +111,17 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#ReactJs
+						#NoSQL
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#64ffda'}>
-						#Jekyll
+						#Graph DB
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#PHP
+						#Linux
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>

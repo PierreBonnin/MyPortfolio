@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
-import { Twitter } from '@styled-icons/boxicons-logos';
+import { Instagram } from '@styled-icons/boxicons-logos';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos';
 import { FilePdf } from '@styled-icons/boxicons-solid';
 
@@ -61,8 +61,8 @@ const Line = styled.div`
 const Sidebar = ({ handleToast }) => {
 	// eslint-disable-next-line
 	const handleClipboardClick = () => {
-		navigator.clipboard.writeText('dannychukz15@gmail.com');
-		handleToast(`Email copy to clipboard! 🥳`);
+		navigator.clipboard.writeText('pierre.bonnin@groupe-esigelec.org');
+		handleToast(`Email copied to clipboard`);
 		return;
 	};
 
@@ -71,31 +71,31 @@ const Sidebar = ({ handleToast }) => {
 			<LeftSideContainer>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
 					<a
-						href='https://drive.google.com/file/d/1iUdfXirmVZJ58RKBDNnUGVGnmKsH7cKB/view?usp=sharing'
+						href='https://drive.google.com/file/d/1Ey3cMpjHw0MRTFgZ-tTZPXKaPJQh2NT0/view?usp=sharing'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FilePdf />
 					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+					<a href='https://github.com/PierreBonnin/' target='_blank' rel='noopener noreferrer'>
 						<Github />
 					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
-						<Twitter />
+					<a href='https://www.instagram.com/thebonnin/' target='_blank' rel='noopener noreferrer'>
+						<Instagram />
 					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://www.linkedin.com/in/pierre-bonnin-22a797195/' target='_blank' rel='noopener noreferrer'>
 						<LinkedinSquare />
 					</a>
 				</SideIcon>
 				<Line />
 			</LeftSideContainer>
 			<RightSideContainer>
-				<SideText>dannychukz15@gmail.com</SideText>
+				<SideText>pierre.bonnin@groupe-esigelec.org</SideText>
 				<Line />
 			</RightSideContainer>
 		</>

@@ -3,18 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
-import Blockchain from '../assets/Upcoming.png';
-import GitHubApp from '../assets/Upcoming.png';
-import CrazyKernel from '../assets/Upcoming.png';
-import ToDo from '../assets/Upcoming.png';
-import CrazyOs from '../assets/Upcoming.png';
-import Docker from '../assets/Upcoming.png';
-import RedditBot from '../assets/Upcoming.png';
-import ToDoApp from '../assets/Upcoming.png';
-import TwitterBot from '../assets/Upcoming.png';
-import Weather from '../assets/Upcoming.png';
-import MP3Player from '../assets/Upcoming.png';
-import Portfolio from '../assets/demo.png';
+
 
 const Container = styled(motion.div)`
 	width: 100%;

@@ -7,9 +7,9 @@ import ListSkills from './list-skills';
 
 const Container = styled(motion.section)`
 	padding-top: 150px;
-	padding-bottom: 100px;
-	padding-left: 170px;
-	padding-right: 170px;
+	padding-bottom: 200px;
+	padding-left: 70px;
+	padding-right: 50px;
 	margin: 0px auto;
 	max-width: 1600px;
 	color: white;
@@ -91,7 +91,7 @@ const BodyList = styled(motion.ul)`
 	font-family: 'Titillium Web';
 	li {
 		cursor: pointer;
-		line-height: 65px;
+		line-height: 55px;
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;

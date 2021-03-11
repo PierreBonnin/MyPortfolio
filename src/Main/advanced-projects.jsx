@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import Passwordlist from '../assets/passlist.png';
-import GraphicalPasswordStrategy from '../assets/Upcoming.png';
-import Keylogger from '../assets/Keylogger.png';
-import SafeFolderApp from '../assets/Upcoming.png';
-import BFPasswordCracker from '../assets/Upcoming.png';
-import { Github } from '@styled-icons/boxicons-logos';
-import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
-import BFPasswordCrackerVideo from '../assets/video.mov';
 
 const Container = styled(motion.div)`
 	padding-top: 2em;

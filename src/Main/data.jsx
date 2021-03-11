@@ -1,13 +1,13 @@
 export const dataExperience = {
     list: {
         0: {
-            main: 'Data Science Intern',
+            main: 'API Engineer Intern',
         },
         1: {
-            main: 'Warehouseman',
+            main: 'Data Science Intern',
         },
         2: {
-            main: 'Logistics Strategist',
+            main: 'Logistics Strategy Assistant',
         },
         3: {
             main: 'Equestrian Factotum',
@@ -15,33 +15,33 @@ export const dataExperience = {
     },
     info: {
         0: {
-            link: 'https://cib.bnpparibas.com//',
-            title: 'BNP Paribas CIB',
-            date: '2020',
-            first: 'Life',
-            second: 'is ',
-            third: 'good',
+            link: 'https://atos.net/en/',
+            title: 'Atos Big Data & Cybersecurity',
+            date: '2021, 6 months',
+            first: '',
+            second: '',
+            third: '',
         },
         1: {
-            link: '',
-            title: '',
-            date: '',
+            link: 'https://cib.bnpparibas.com//',
+            title: 'BNP Paribas CIB',
+            date: '2020, 3 months',
             first: '',
             second: '',
             third: '',
         },
         2: {
-            link: '',
-            title: '',
-            date: '',
+            link: 'https://www.cycletyres.fr/',
+            title: 'Cycle Tyres',
+            date: '2017, 2 months',
             first: '',
             second: '',
             third: '',
         },
         3: {
-            link: '',
-            title: '',
-            date: '',
+            link: 'https://www.coeurequestremeribel.com/',
+            title: 'Equestrian Factotum',
+            date: '2017 - 2020 (summer)',
             first: '',
             second: '',
             third: '',

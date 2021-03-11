@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
-import { Twitter } from '@styled-icons/boxicons-logos';
+import { Instagram } from '@styled-icons/boxicons-logos';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos';
 import { FilePdf } from '@styled-icons/boxicons-solid';
 import { MoreHorizontal } from '@styled-icons/evaicons-solid/';
@@ -81,7 +81,7 @@ const MobileContactInfo = ({ handleToast }) => {
 					animate={expandIcons ? 'show' : 'hidden1'}
 					whileTap={{ scale: 0.85 }}>
 					<a
-						href='https://drive.google.com/file/d/1iUdfXirmVZJ58RKBDNnUGVGnmKsH7cKB/view?usp=sharing'
+						href='https://drive.google.com/file/d/1Ey3cMpjHw0MRTFgZ-tTZPXKaPJQh2NT0/view?usp=sharing'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FilePdf />
@@ -93,7 +93,7 @@ const MobileContactInfo = ({ handleToast }) => {
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden2'}
 					whileTap={{ scale: 0.85 }}>
-					<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+					<a href='https://github.com/PierreBonnin/' target='_blank' rel='noopener noreferrer'>
 						<Github />
 					</a>
 				</SideIcon>
@@ -103,8 +103,8 @@ const MobileContactInfo = ({ handleToast }) => {
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden3'}
 					whileTap={{ scale: 0.85 }}>
-					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
-						<Twitter />
+					<a href='https://www.instagram.com/thebonnin/' target='_blank' rel='noopener noreferrer'>
+						<Instagram />
 					</a>
 				</SideIcon>
 				<SideIcon
@@ -113,7 +113,7 @@ const MobileContactInfo = ({ handleToast }) => {
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden4'}
 					whileTap={{ scale: 0.85 }}>
-					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://www.linkedin.com/in/pierre-bonnin-22a797195/' target='_blank' rel='noopener noreferrer'>
 						<LinkedinSquare />
 					</a>
 				</SideIcon>

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { dataExperience } from './data';
+import atoslogo from './../assets/atos-logo-blue.png';
 
 const ExperienceInfo = styled(motion.div)`
 	width: 50%;
@@ -14,6 +15,19 @@ const ExperienceInfo = styled(motion.div)`
 		width: 90%;
 		height: auto;
 		padding-bottom: 0;
+	}
+`;
+const ImgContainer = styled.div`
+	width: 100px;
+	//height: 100px;
+	//padding-left: 40px
+	margin-left: auto; 
+	margin-right: 0;
+	justify-content: flex-end;
+	position: relative;
+	@media only screen and (max-width: 450px) {
+		height: auto;
+		width: 80%;
 	}
 `;
 
@@ -69,6 +83,8 @@ const Info = styled.li`
 const ItemExperienceInfo = ({ selected }) => {
 	return (
 		<ExperienceInfo>
+			<ImgContainer>
+			</ImgContainer>
 			<Title>
 				<a href={dataExperience.info[selected].link} target='_blank' rel='noopener noreferrer'>
 					<TitleText>{dataExperience.info[selected].title}</TitleText>

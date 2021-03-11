@@ -6,23 +6,23 @@ import { RightArrow } from '@styled-icons/boxicons-regular/';
 import { dataEducation } from './data';
 
 const SubItemContainer = styled(motion.div)`
-	padding-left: 10px;
+	padding-left: 5px;
 	height: 75px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 `;
 
 const ExpandContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	height: 40px;
+	height: 45px;
 `;
 
 const DetailsContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	height: 40px;
+	height: 90px;
 	padding: 5px 0px;
 `;
 
@@ -61,7 +61,7 @@ const SubEducationItems = ({ item }) => {
 			animate='open'
 			exit='collapsed'
 			variants={{
-				open: { opacity: 1, height: '75px' },
+				open: { opacity: 1, height: '85px' },
 				collapsed: { opacity: 0, height: '0px' },
 			}}
 			transition={{ duration: 0.3, ease: 'circIn' }}>
