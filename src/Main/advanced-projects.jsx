@@ -250,36 +250,6 @@ const AdvancedProjects = ({ isMobile }) => {
 					</ImgContainer>
 				</RightRow>
 			</Row>
-			<Row>
-				<LeftRow text={false}>
-					<ImgContainer>
-						
-					</ImgContainer>
-				</LeftRow>
-				<RightRow text={true}>
-					
-				</RightRow>
-			</Row>
-			<Row revert={true}>
-				<LeftRow text={true}>
-					
-				</LeftRow>
-				<RightRow text={false}>
-					<ImgContainer>
-						
-					</ImgContainer>
-				</RightRow>
-			</Row>
-			<Row>
-				<LeftRow text={false}>
-					<ImgContainer>
-						
-					</ImgContainer>
-				</LeftRow>
-				<RightRow text={true}>
-					
-				</RightRow>
-			</Row>
 		</Container>
 	);
 };

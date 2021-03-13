@@ -6,12 +6,12 @@ import AdvancedProjects from './advanced-projects';
 
 const Container = styled(motion.section)`
 	padding-top: 150px;
-	padding-bottom: 100px;
+	padding-bottom: 1px;
 	padding-left: 170px;
 	padding-right: 170px;
 	margin: 0px auto;
 	max-width: 1600px;
-	min-height: 90vh;
+	min-height: 20vh;
 	color: white;
 	overflow: hidden;
 	font-family: 'Asap', sans-serif;
@@ -153,7 +153,7 @@ const Projects = ({ projectRef }) => {
 							onClick={handleProjects}
 							id='security'>
 							{showAdvanced && <BackgroundButton layoutId='underline' />}
-							Cyber-Security
+							Projects 1
 						</Button>
 						<Button
 							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
@@ -161,7 +161,7 @@ const Projects = ({ projectRef }) => {
 							onClick={handleProjects}
 							id='projects'>
 							{!showAdvanced && <BackgroundButton layoutId='underline' />}
-							Projects
+							Projects 2
 						</Button>
 					</ButtonContainer>
 				</AnimateSharedLayout>
